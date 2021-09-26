@@ -12,7 +12,7 @@ function GetConnected() {
         <div className="shadow-lg flex flex-col items-center py-3 px-2 bg-gray-300">
           <form action="" className="flex flex-col space-y-5 max-w-sm mx-5">
             <div className="flex flex-col space-y-1">
-              <label htmlFor="firstname">First Name </label>
+              <label htmlFor="firstname">First </label>
               <input
                 type="text"
                 placeholder="First Name and Middle Name"
