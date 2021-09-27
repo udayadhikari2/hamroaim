@@ -1,7 +1,13 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
-import Image from 'next/image'
-export const MobileViewMenu = ({ isOpen, setIsOpen, scrolled, Logo }) => {
+import Image from "next/image";
+
+export const MobileViewMenu = ({
+  isOpen,
+  setIsOpen,
+  scrolled,
+  Logo = "/images/HamroAim.png",
+}) => {
   return (
     <div
       className={`md:hidden absolute w-full transform transition ease-in-out duration-500 ${

@@ -1,6 +1,4 @@
 import React from "react";
-import TestimonialImage1 from "../../Assets/Images/a.png";
-import TestimonialImage2 from "../../Assets/Images/Aashish.png";
 import Image from "next/image";
 
 const TestimonialOne = () => {
@@ -11,12 +9,12 @@ const TestimonialOne = () => {
           <h4 className="text-3xl font-extrabold text-">UDAY ADHIKARI</h4>
           <p className="md:text-lg text-sm font-semibold mx-10">
             “I just wanted to share a quick note and let you know that you guys
-            do a really good job. I'm glad I decided to work with you. It's
+            do a really good job. I&apos;m glad I decided to work with you. It's
             really great how easy your websites are to update and manage."
           </p>
         </div>
         <div className="transform scale-150">
-          <Image src={TestimonialImage1} alt="" width="350px" height="650px" />
+          <Image src="/images/a.png" alt="" width="350px" height="650px" />
         </div>
       </div>
     </div>
@@ -35,7 +33,12 @@ const TestimonialTwo = () => {
           </p>
         </div>
         <div className="transform scale-150">
-          <Image src={TestimonialImage2} alt="" width="400px" height="500px" />
+          <Image
+            src="/images/Aashish.png"
+            alt=""
+            width="400px"
+            height="500px"
+          />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Testimonial from "../Components/Body/Testimonial";
+import Testimonial from "../components/Body/Testimonial";
 
 function Home() {
   return (

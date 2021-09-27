@@ -5,7 +5,6 @@ import { menuItems } from "../../utils/Data/navitems";
 import { MobileViewMenu } from "../Responsive/MobileViewMenu";
 import { FaTimesCircle } from "react-icons/fa";
 import SocialMedia from "./SocialMedia";
-import Logo from "../../Assets/Images/HamroAim.png";
 
 function NavBar({ scrolled }) {
   const ref = useRef();
@@ -27,7 +26,7 @@ function NavBar({ scrolled }) {
         isOpen={isOpen}
         setIsOpen={setIsOpen}
         scrolled={scrolled}
-        Logo={Logo}
+        // Logo={""}
       />
       <div
         className={`md:translate-x-0 absolute w-56 md:relative inset-y-0 left-0 transform transition duration-500 ease-in-out bg-gradient-to-l from-gray-900 to-blue-800 
@@ -42,18 +41,25 @@ function NavBar({ scrolled }) {
         </div>
         <div className="px-5 min-h-screen">
           <div className="flex flex-col items-center justify-center mb-10 p-2 cursor-pointer">
-            <Image src={Logo} alt="" />
+            <Image
+              src="/images/HamroAim.png"
+              alt=""
+              width="100px"
+              height="100px"
+            />
           </div>
           <ul className="items-center cursor-pointer">
             {menuItems.map((itemsList, index) => {
               return (
                 <Link href={itemsList.path} key={index}>
-                  <div
-                    href={itemsList.path}
-                    className={` flex flex-grow px-5 py-1 my-2 text-sm font-semibold border rounded-sm text-white hover:bg-blue-700`}
-                  >
-                    <li className="items-center">{itemsList.items}</li>
-                  </div>
+                  <a>
+                    <div
+                      href={itemsList.path}
+                      className={` flex flex-grow px-5 py-1 my-2 text-sm font-semibold border rounded-sm text-white hover:bg-blue-700`}
+                    >
+                      <li className="items-center">{itemsList.items}</li>
+                    </div>
+                  </a>
                 </Link>
               );
             })}
