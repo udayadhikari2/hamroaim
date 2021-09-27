@@ -1,12 +1,10 @@
 import React from "react";
-import { Link } from "next/link";
+import Link from "next/link";
 import Testimonial from "../Components/Body/Testimonial";
 
 function Home() {
   return (
-    <div
-      className="w-full min-h-screen bg-yellow-500 px-2 py-16 sm:py-5 relative m-0 p-0"
-    >
+    <div className="w-full min-h-screen bg-yellow-500 px-2 py-16 sm:py-5 relative m-0 p-0">
       <div className="grid md:grid-cols-2 justify-center py-10">
         <div className="flex flex-col space-y-2">
           <h1 className="lg:text-6xl md:text-4xl text-2xl font-extrabold text-white text-center uppercase">

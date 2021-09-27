@@ -16,7 +16,7 @@ function NavBar({ scrolled }) {
         setIsOpen(false);
       }
     });
-  });
+  }, []);
 
   return (
     <div ref={ref} className="z-50">

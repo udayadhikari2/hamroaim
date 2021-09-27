@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
+import Image from 'next/image'
 export const MobileViewMenu = ({ isOpen, setIsOpen, scrolled, Logo }) => {
   return (
     <div
@@ -23,7 +24,7 @@ export const MobileViewMenu = ({ isOpen, setIsOpen, scrolled, Logo }) => {
             />
           </div>
           <div className="flex flex-col justify-center items-center">
-            <img src={Logo} alt="" width={100} />
+            <Image src={Logo} alt="" width="100px" height="50" />
           </div>
         </div>
       )}
