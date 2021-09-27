@@ -8,15 +8,18 @@ import SocialMedia from "./SocialMedia";
 import Logo from "../../Assets/Images/HamroAim.png";
 
 function NavBar({ scrolled }) {
-  const ref = useRef(null);
+  const ref = useRef();
+
   const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
+    console.log(ref.current);
+    console.log(ref);
     document.addEventListener("mousedown", (event) => {
-      if (!ref.current.contains(event.target)) {
+      if (!ref || !ref.current || !ref.current?.contains(event.target)) {
         setIsOpen(false);
       }
     });
-  }, []);
+  }, [ref]);
 
   return (
     <div ref={ref} className="z-50">
@@ -44,10 +47,9 @@ function NavBar({ scrolled }) {
           <ul className="items-center cursor-pointer">
             {menuItems.map((itemsList, index) => {
               return (
-                <Link href={itemsList.path}>
+                <Link href={itemsList.path} key={index}>
                   <div
                     href={itemsList.path}
-                    key={index}
                     className={` flex flex-grow px-5 py-1 my-2 text-sm font-semibold border rounded-sm text-white hover:bg-blue-700`}
                   >
                     <li className="items-center">{itemsList.items}</li>

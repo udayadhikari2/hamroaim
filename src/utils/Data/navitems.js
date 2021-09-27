@@ -23,6 +23,6 @@ export const menuItems = [
   },
   {
     items: "Have a project ?",
-    path: "/connected",
+    path: "/YourProject",
   },
 ];

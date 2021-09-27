@@ -9,16 +9,11 @@ export default function index({ scrollRef }) {
     } else {
       setScrolled(false);
     }
-    console.log(target);
   }, []);
   useEffect(() => {
     const div = scrollRef.current;
     div.addEventListener("scroll", handleScroll);
   }, [handleScroll, scrolled]);
 
-  return (
-    <>
-      <NavBar scrolled={scrolled} setScrolled={setScrolled} />
-    </>
-  );
+  return <NavBar scrolled={scrolled} setScrolled={setScrolled} />;
 }
