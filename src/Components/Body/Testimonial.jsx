@@ -1,6 +1,7 @@
 import React from "react";
 import TestimonialImage1 from "../../Assets/Images/a.png";
 import TestimonialImage2 from "../../Assets/Images/Aashish.png";
+import Image from "next/image";
 
 const TestimonialOne = () => {
   return (
@@ -15,7 +16,7 @@ const TestimonialOne = () => {
           </p>
         </div>
         <div className="transform scale-150">
-          <img src={TestimonialImage1} width={400} alt="" />
+          <Image src={TestimonialImage1} alt="" width="350px" height="650px" />
         </div>
       </div>
     </div>
@@ -34,7 +35,7 @@ const TestimonialTwo = () => {
           </p>
         </div>
         <div className="transform scale-150">
-          <img src={TestimonialImage2} width={625} alt="" />
+          <Image src={TestimonialImage2} alt="" width="400px" height="500px" />
         </div>
       </div>
     </div>
