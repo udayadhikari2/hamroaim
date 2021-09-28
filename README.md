@@ -14,16 +14,13 @@ HamroAim is a new company helps you to find a best websites as you prefer. Hamro
   <a href="https://github.com/hamroaim">
     <img src="images/HamroAim.png" alt="Logo" width="150" height="100">
   </a>
+  
   <h2 align="center">हाम्रो Aim</h2>
 
   <p align="center">
-    HamroAim is to provide a different feel in web.
+    **HamroAim** is to provide a different feel in web.
   </p>
+  
  <br/>
- [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+ <a href="https://github.com/udayadhikari2/hamroaim.git"><strong>Explore the docs »</strong></a>
 </p>
