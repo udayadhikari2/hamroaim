@@ -18,7 +18,7 @@ HamroAim is a new company helps you to find a best websites as you prefer. Hamro
   <h2 align="center">हाम्रो Aim</h2>
 
   <p align="center">
-    **HamroAim** is to provide a different feel in web.
+    __HamroAim__ is to provide a different feel in web.
   </p>
   
  <br/>
