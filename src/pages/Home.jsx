@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Testimonial from "../components/Body/Testimonial";
+import Testimonial from "@/components/Body/Testimonial";
 
 function Home() {
   return (
@@ -18,9 +18,11 @@ function Home() {
         </div>
         <div className="flex justify-center items-center my-10">
           <Link href="/subscribe">
-            <button className="rounded-md border-2 py-1 px-4 lg:py-2 lg:px-8 uppercase shadow-lg border-black text-black font-extrabold hover:text-red-600 hover:border-red-600 hover:bg-gray-100">
-              Join With Us
-            </button>
+            <a>
+              <button className="rounded-md border-2 py-1 px-4 lg:py-2 lg:px-8 uppercase shadow-lg border-black text-black font-extrabold hover:text-red-600 hover:border-red-600 hover:bg-gray-100">
+                Join With Us
+              </button>
+            </a>
           </Link>
         </div>
       </div>

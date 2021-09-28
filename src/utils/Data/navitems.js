@@ -2,7 +2,6 @@ export const menuItems = [
   {
     items: "Home",
     path: "/",
-    active: "active",
   },
   {
     items: "Our Project",

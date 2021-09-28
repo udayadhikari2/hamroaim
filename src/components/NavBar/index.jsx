@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { menuItems } from "../../utils/Data/navitems";
-import { MobileViewMenu } from "../Responsive/MobileViewMenu";
+import { menuItems } from "@/utils/Data/navitems";
+import { MobileViewMenu } from "@/components/Responsive/MobileViewMenu";
 import { FaTimesCircle } from "react-icons/fa";
 import SocialMedia from "./SocialMedia";
 
@@ -26,7 +26,6 @@ function NavBar({ scrolled }) {
         isOpen={isOpen}
         setIsOpen={setIsOpen}
         scrolled={scrolled}
-        // Logo={""}
       />
       <div
         className={`md:translate-x-0 absolute w-56 md:relative inset-y-0 left-0 transform transition duration-500 ease-in-out bg-gradient-to-l from-gray-900 to-blue-800 
@@ -44,7 +43,7 @@ function NavBar({ scrolled }) {
             <Image
               src="/images/HamroAim.png"
               alt=""
-              width="100px"
+              width="150px"
               height="100px"
             />
           </div>
