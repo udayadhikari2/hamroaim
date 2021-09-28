@@ -32,7 +32,7 @@ HamroAim is a new company helps you to find a best websites as you prefer. Hamro
   <summary>हाम्रो Aim Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-hamroaim">About The हाम्रो Aim</a>
+      <a href="#about-the-hamroaim">About The HamroAim</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -45,7 +45,7 @@ HamroAim is a new company helps you to find a best websites as you prefer. Hamro
 </details>
 
 <!-- ABOUT THE PROJECT (हाम्रो Aim) -->
-## About The हाम्रो Aim
+## About The HamroAim
 
 <br/>
 <p align="center">
