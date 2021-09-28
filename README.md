@@ -14,8 +14,6 @@ HamroAim is a new company helps you to find a best websites as you prefer. Hamro
   <a href="https://github.com/hamroaim">
     <img src="images/HamroAim.png" alt="Logo" width="150" height="100">
   </a>
-
-  <h3 align="center">Hamro Aim</h3>
   <h2 align="center">हाम्रो Aim</h2>
 
   <p align="center">
