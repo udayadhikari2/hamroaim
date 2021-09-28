@@ -1,6 +1,6 @@
 import React from "react";
+import { chakra } from "@chakra-ui/system";
 import {
-  Box,
   Flex,
   Input,
   FormControl,
@@ -22,7 +22,7 @@ import {
   Text,
   Stack,
   GridItem,
-  chakra,
+//   chakra,
   SimpleGrid,
   Textarea,
 } from "@chakra-ui/react";
@@ -38,7 +38,7 @@ function Have_a_Project() {
       rounded={5}
       py={4}
       colSpan={{ lg: "2" }}
-      fontWeight="light"
+      
     >
       <chakra.form
         method="POST"
@@ -56,7 +56,7 @@ function Have_a_Project() {
             width="full"
           >
             <FormControl isRequired>
-              <FormLabel>First Name</FormLabel>
+              <FormLabel fontWeight="normal">First Name</FormLabel>
               <InputGroup>
                 <Input
                   type="text"
@@ -75,7 +75,7 @@ function Have_a_Project() {
               </InputGroup>
             </FormControl>
             <FormControl isRequired>
-              <FormLabel>Last Name</FormLabel>
+              <FormLabel fontWeight="normal">Last Name</FormLabel>
               <InputGroup>
                 <Input
                   type="text"
@@ -103,7 +103,7 @@ function Have_a_Project() {
             width="full"
           >
             <FormControl isRequired>
-              <FormLabel>For whome project belongs to ?</FormLabel>
+              <FormLabel fontWeight="normal">For whome project belongs to ?</FormLabel>
               <RadioGroup
                 type="text"
                 _focus={{
@@ -125,8 +125,26 @@ function Have_a_Project() {
                 </HStack>
               </RadioGroup>
             </FormControl>
+            <FormControl >
+              <FormLabel fontWeight="normal">Name of Organization </FormLabel>
+              <Input
+                type="text"
+                ring={3}
+                border="1px"
+                borderColor="white"
+                ringColor="transparent"
+                _focus={{
+                  background: "gray.200",
+                  color: "black",
+                  ringColor: "green.500",
+                  border: "transparent",
+                }}
+                fontWeight="bold"
+              />
+              <FormHelperText fontWeight="light" fontStyle="italic" fontSize="xs">If the category belongs to Organization kindly provide the name of organization.</FormHelperText>
+            </FormControl>
             <FormControl isRequired>
-              <FormLabel>What type of project do you have ?</FormLabel>
+              <FormLabel fontWeight="normal">What type of project do you have ?</FormLabel>
               <Select
                 type="text"
                 ring={3}
@@ -159,7 +177,7 @@ function Have_a_Project() {
               width="full"
             >
               <FormControl isRequired>
-                <FormLabel>Your Estimated Price</FormLabel>
+                <FormLabel fontWeight="normal">Your Estimated Price</FormLabel>
                 <NumberInput max={1000000} min={5000}>
                   <NumberInputField
                     type="number"
@@ -182,7 +200,7 @@ function Have_a_Project() {
                 </NumberInput>
               </FormControl>
               <FormControl>
-                <FormLabel>Give us a Time Duration (In Months)</FormLabel>
+                <FormLabel fontWeight="normal">Give us a Time Duration (In Months)</FormLabel>
                 <InputGroup>
                   <NumberInput max={12} min={1}>
                     <NumberInputField
@@ -214,8 +232,8 @@ function Have_a_Project() {
                 </InputGroup>
               </FormControl>
             </SimpleGrid>
-            <FormControl>
-              <FormLabel>
+            <FormControl p={2}>
+              <FormLabel fontWeight="normal">
                 Want to give discription about your project ?
               </FormLabel>
               <Textarea
@@ -231,7 +249,7 @@ function Have_a_Project() {
                 }}
                 fontWeight="bold"
               />
-              <FormHelperText color="gray.100" fontWeight="light" fontSize="xs">
+              <FormHelperText fontWeight="light" fontSize="xs" fontStyle="italic">
                 Do not provide your personal information.
               </FormHelperText>
             </FormControl>
@@ -244,7 +262,7 @@ function Have_a_Project() {
               width="full"
             >
               <FormControl isRequired>
-                <FormLabel>Email</FormLabel>
+                <FormLabel fontWeight="normal">Email</FormLabel>
                 <InputGroup>
                   <Input
                     type="email"
@@ -263,7 +281,7 @@ function Have_a_Project() {
                 </InputGroup>
               </FormControl>
               <FormControl isRequired>
-                <FormLabel>Contact Number</FormLabel>
+                <FormLabel fontWeight="normal">Contact Number</FormLabel>
                 <InputGroup>
                   <InputLeftAddon
                     children="+977 -"
