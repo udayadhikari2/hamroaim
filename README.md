@@ -83,6 +83,12 @@ This section should list major frameworks that we built our project using. Here 
 * [Next.js](https://nextjs.org)
 
 Next.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
+* npm
+  ```sh
+ npx create-next-app hamroaim
+ or
+ yarn create next-app hamroaim
+  ```
 
 * [React.js](https://reactjs.org)
 
