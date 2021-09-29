@@ -1,15 +1,10 @@
 import React from "react";
-import Form from '@/components/Body/have-project';
-import {
-  Box,
-  Flex,
-  Heading,
-  Text,
-} from "@chakra-ui/react";
+import Form from "@/components/Body/Form";
+import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 
 function YourProject() {
   return (
-    <Box overflow="hidden" bg="red.800">
+    <Box overflow="hidden" background="brown">
       <Flex
         direction="column"
         justifyContent="center"
@@ -38,9 +33,8 @@ function YourProject() {
         </Text>
       </Flex>
       <Box d="flex" justifyContent="center" alignItems="center" color="white">
-      <Form />
+        <Form />
       </Box>
-     
     </Box>
   );
 }
