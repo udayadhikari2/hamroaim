@@ -86,7 +86,9 @@ Next.js gives you the best developer experience with all the features you need f
 * npm or yarn
 ```sh
  npx create-next-app hamroaim
-  or
+ 
+  //or
+  
  yarn create next-app hamroaim
   ```
  
