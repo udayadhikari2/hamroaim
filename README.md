@@ -25,8 +25,8 @@ HamroAim is a new company helps you to find a best websites as you prefer. Hamro
  <a href="https://github.com/udayadhikari2/hamroaim.git/contributors">
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/udayadhikari2/hamroaim.git?style=for-the-badge">
   </a>
-   <a href="https://github.com/udayadhikari2/hamroaim.git/fork">
-   <img alt="GitHub fork" src="https://img.shields.io/github/fork/udayadhikari2/hamroaim.git?style=for-the-badge">
+   <a href="https://github.com/udayadhikari2/hamroaim/watchers">
+   <img alt="GitHub fork" src="https://img.shields.io/github/watcher/udayadhikari2/hamroaim.git?style=for-the-badge">
   </a>
    <a href="https://github.com/udayadhikari2/hamroaim.git/stars">
    <img alt="GitHub stars" src="https://img.shields.io/github/stars/udayadhikari2/hamroaim.git?style=for-the-badge">
