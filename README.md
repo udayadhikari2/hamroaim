@@ -102,6 +102,30 @@ Fot the Style and UI/Ux development we have used some major frameworks using.
 * [Chakra-ui](https://chakra-ui.com)
 
 Chakra UI is a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.
+```sh
+ npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
+ 
+  //or
+  
+ yarn add @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^4
+  ```
+  example :
+  
+  ```sh
+ import * as React from "react"
+
+// 1. import `ChakraProvider` component
+import { ChakraProvider } from "@chakra-ui/react"
+
+function App({ Component }) {
+  // 2. Use at the root of your app
+  return (
+    <ChakraProvider>
+      <Component />
+    </ChakraProvider>
+  )
+}
+  ```
 
 * [Tailwindcss](https://tailwindcss.com)
 
