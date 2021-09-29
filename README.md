@@ -112,19 +112,17 @@ Chakra UI is a simple, modular and accessible component library that gives you t
   example :
   
   ```sh
- import * as React from "react"
+ import { ChakraProvider } from "@chakra-ui/react"
 
-// 1. import `ChakraProvider` component
-import { ChakraProvider } from "@chakra-ui/react"
-
-function App({ Component }) {
-  // 2. Use at the root of your app
+function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>
-      <Component />
+      <Component {...pageProps} />
     </ChakraProvider>
   )
 }
+
+export default MyApp
   ```
 
 * [Tailwindcss](https://tailwindcss.com)
