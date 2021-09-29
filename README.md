@@ -111,7 +111,7 @@ Chakra UI is a simple, modular and accessible component library that gives you t
   ```
   example :
   
-  ```sh
+  ```JS
  import { ChakraProvider } from "@chakra-ui/react"
 
 function MyApp({ Component, pageProps }) {
