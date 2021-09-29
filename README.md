@@ -23,13 +23,13 @@ HamroAim is a new company helps you to find a best websites as you prefer. Hamro
   
  <br/>
  <a href="https://github.com/udayadhikari2/hamroaim.git/contributors">
-  <img alt="GitHub issues" src="https://img.shields.io/github/contributors/udayadhikari2/hamroaim.git?style=for-the-badge">
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/udayadhikari2/hamroaim.git?style=for-the-badge">
   </a>
-   <a href="https://github.com/udayadhikari2/hamroaim.git/watched">
-   <img alt="GitHub issues" src="https://img.shields.io/github/watched/udayadhikari2/hamroaim.git?style=for-the-badge">
+   <a href="https://github.com/udayadhikari2/hamroaim.git/fork">
+   <img alt="GitHub fork" src="https://img.shields.io/github/fork/udayadhikari2/hamroaim.git?style=for-the-badge">
   </a>
    <a href="https://github.com/udayadhikari2/hamroaim.git/stars">
-   <img alt="GitHub issues" src="https://img.shields.io/github/stars/udayadhikari2/hamroaim.git?style=for-the-badge">
+   <img alt="GitHub stars" src="https://img.shields.io/github/stars/udayadhikari2/hamroaim.git?style=for-the-badge">
 </a>
 <br/>
  <a href="https://github.com/udayadhikari2/hamroaim.git"><strong>Explore the docs »</strong></a>
