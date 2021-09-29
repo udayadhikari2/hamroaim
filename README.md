@@ -22,15 +22,12 @@ HamroAim is a new company helps you to find a best websites as you prefer. Hamro
   </p>
   
  <br/>
- <a href="https://github.com/udayadhikari2/hamroaim.git/contributors">
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/udayadhikari2/hamroaim.git?style=for-the-badge">
-  </a>
-   <a href="https://github.com/udayadhikari2/hamroaim/watchers">
-   <img alt="GitHub fork" src="https://img.shields.io/github/watcher/udayadhikari2/hamroaim.git?style=for-the-badge">
-  </a>
-   <a href="https://github.com/udayadhikari2/hamroaim.git/stars">
-   <img alt="GitHub stars" src="https://img.shields.io/github/stars/udayadhikari2/hamroaim.git?style=for-the-badge">
+ <a href="https://github.com/udayadhikari2/hamroaim/issues">
+  <img alt="GitHub issues" src="https://img.shields.io/github/issues/udayadhikari2/hamroaim?style=for-the-badge">
 </a>
+<a href="https://github.com/udayadhikari2/hamroaim/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/udayadhikari2/hamroaim?style=for-the-badge"></a>
+<a href="https://github.com/udayadhikari2/hamroaim/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/udayadhikari2/hamroaim?style=for-the-badge"></a>
+<a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fudayadhikari2%2Fhamroaim%2Fstargazers"><img alt="Twitter" src="https://img.shields.io/twitter/url?style=social"></a>
 <br/>
  <a href="https://github.com/udayadhikari2/hamroaim.git"><strong>Explore the docs »</strong></a>
  
