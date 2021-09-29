@@ -80,16 +80,19 @@ HamroAim is a new company helps you to find a best websites as you prefer.
 
 This section should list major frameworks that we built our project using. Here are a few examples.
 * [Next.js](https://nextjs.org)
+* 
 Next.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
 * [React.js](https://reactjs.org)
-
+* 
 React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
 Declarative views make your code more predictable and easier to debug.
 
 Fot the Style and UI/Ux development we have used some major frameworks using.
 * [Chakra-ui](https://chakra-ui.com)
+* 
 Chakra UI is a simple, modular and accessible component library that gives you the building blocks you need to build your React applications.
 * [Tailwindcss](https://tailwindcss.com)
+* 
 A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
 <br/>
 <br/>
