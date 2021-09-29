@@ -59,11 +59,22 @@ HamroAim is a new company helps you to find a best websites as you prefer. Hamro
   <a href="https://www.hamroaim.com.np">
     <img src="images/Screenshot.PNG" alt="Logo" width="100%" height="100%">
   </a>
+  <br/>
+There are many great startup company which are really best on their own field , however, we didn't find one that really suit our needs so we established to enhanced our startup in the field of technology, so we are ready to operate our company from the initial phase with small team having great effor on the work. We want to create a great impression in Nepal as well as internationally. so we think our company HAMRO AIM (हाम्रो Aim) is the best to feel different.
+
+Here's why us:
+* Your time should be focused on creating something amazing and different. so we are here for creating amazing with you or with your organization different.
+* You shouldn't be doing the same tasks over and over like creating marketing and developed the sites.
+
+ HamroAim is a new company helps you to find a best websites as you prefer.
+  
+ <h1>Below Here is the website of HAMRO AIM </h1>
+
  </p>
 
 
-<!-- UNDER CONSTRUCTION -->
-## Under Construction
+<!-- UNDER Development -->
+## Under Development
 
  
 
